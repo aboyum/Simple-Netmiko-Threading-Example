@@ -1,6 +1,6 @@
 import csv
 import threading
-from Queue import Queue
+from multiprocessing import Queue
 from getpass import getpass
 from netmiko import ConnectHandler
 
@@ -42,6 +42,6 @@ if __name__ == "__main__":
     
     while not output_q.empty():
         my_dict = output_q.get()
-        for k, val in my_dict.iteritems():
-            print k
-            print val
+        for k, val in my_dict.items():
+            print (k)
+            print (val)
