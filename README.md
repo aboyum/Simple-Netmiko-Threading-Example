@@ -9,3 +9,6 @@ I also made a short YouTube video to explain it https://www.youtube.com/watch?v=
 
 ## How to Thread your Netmiko script
 main.py is a simple example of threading Netmiko with comments on where to place your code
+
+## Python3
+The script was updated to Python3 in 2020 by aboyum.
